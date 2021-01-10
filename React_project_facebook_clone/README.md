@@ -5,6 +5,7 @@
 - React:Hooks, Context API
 - Material UI
 - Flexbox
+- Firebase
 
 Project has a login system with Google authentication so please <strong>use Google account to login and check out the app</strong>.
 
