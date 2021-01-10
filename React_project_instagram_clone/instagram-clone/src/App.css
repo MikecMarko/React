@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+.app {
+  background-color: #fafafa;
+}
+/*Always keep the aspect ratio of instagram logo*/
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app__headerImage {
+  object-fit: contain;
+}
+.app__loginContainer {
+  border: lightgrey solid 1px;
+  padding: 5px;
+}
+.app__headerLogin {
+  display: flex;
+}
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.app__postsRight {
+  margin-left: 20px;
+}
+.app__notSignedIn {
+  text-align: center;
+  text-transform: uppercase;
+}
+.app__modals {
+  border: lightgrey solid 1px;
+}
