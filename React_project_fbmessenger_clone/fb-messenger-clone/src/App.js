@@ -6,6 +6,8 @@ import db from './components/Firebase';
 import firebase from 'firebase';
 import FlipMove from 'react-flip-move';
 import logo from './images/messenger_logo.webp';
+import SendIcon from '@material-ui/icons/Send';
+import { IconButton } from '@material-ui/core';
 
 function App() {
   const [input, setInput] = useState('');
@@ -49,8 +51,8 @@ function App() {
         <FormControl>
           <InputLabel>Enter a message...</InputLabel>
           <Input value={input} onChange={(e) => setInput(e.target.value)} />
-          {/*Button */}
-          <Button
+
+          <IconButton
             disabled={!input}
             variant="contained"
             color="primary"
@@ -58,8 +60,10 @@ function App() {
             type="submit"
             onClick={sendMessage}
           >
-            Send Message
-          </Button>
+            <SendIcon />
+          </IconButton>
+
+          {/*Button */}
         </FormControl>
       </form>
 
