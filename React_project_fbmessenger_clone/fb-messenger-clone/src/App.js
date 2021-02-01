@@ -5,6 +5,7 @@ import Message from './components/Message';
 import db from './components/Firebase';
 import firebase from 'firebase';
 import FlipMove from 'react-flip-move';
+import logo from './images/messenger_logo.webp';
 
 function App() {
   const [input, setInput] = useState('');
@@ -39,10 +40,11 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="app">
+      <img src={logo} alt="" />
       <h2>Welcome {username}</h2>
       {/*Input field and button need to be inside of form so you can just press enter for sending */}
-      <form>
+      <form className="app__form">
         {/*Input field */}
         <FormControl>
           <InputLabel>Enter a message...</InputLabel>
