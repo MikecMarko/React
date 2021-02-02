@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import { Button, FormControl, InputLabel, Input } from '@material-ui/core';
+import { FormControl, Input } from '@material-ui/core';
 import Message from './components/Message';
 import db from './components/Firebase';
 import firebase from 'firebase';
@@ -48,9 +48,12 @@ function App() {
       {/*Input field and button need to be inside of form so you can just press enter for sending */}
       <form className="app__form">
         {/*Input field */}
-        <FormControl>
-          <InputLabel>Enter a message...</InputLabel>
-          <Input value={input} onChange={(e) => setInput(e.target.value)} />
+        <FormControl className="app__formcontrol">
+          <Input
+            placeholder="Enter a message here..."
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+          />
 
           <IconButton
             disabled={!input}
