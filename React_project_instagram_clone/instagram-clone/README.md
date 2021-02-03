@@ -1,5 +1,23 @@
-This project was bootstrapped with [Create React App] (https://github.com/facebook/create-react-app).
+🔥 This project was bootstrapped with [Create React App] (https://github.com/facebook/create-react-app). 🔥
 
-I also used Firebase and material UI.
+💻 Technologys that were used in this project:
 
-Website has login and post functionalities. 
+    React: Hooks
+    Material UI
+    Flexbox
+    Firebase
+
+⚡Functionalities:
+
+    login system
+    posting pictures/comments
+
+📚 Notes:
+
+Positive 😀
+
+    simple login system with firebase setup
+
+Negative 😔
+
+    no component structure, most work on that
