@@ -2,7 +2,7 @@
 
 :computer: Technologys that were used in this project:
 
-- React:Hooks, Context API
+- React: Hooks, Context API
 - Material UI
 - Flexbox
 - Firebase
