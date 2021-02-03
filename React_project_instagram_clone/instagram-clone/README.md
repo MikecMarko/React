@@ -20,4 +20,4 @@ Positive 😀
 
 Negative 😔
 
-    no component structure, most work on that
+    no component structure, must work on that
