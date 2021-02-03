@@ -7,6 +7,7 @@ img {
 }
 
 .app__form {
+  padding: 25px;
   text-align: center;
   position: fixed;
   bottom: 0;
